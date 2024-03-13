@@ -663,40 +663,47 @@ section {
   font-size: 14px;
   color: #173b6c;
 }
-.contact .info1 {
+.schedule {
   padding: 30px;
+  margin-left: 100px;
   background: #fff;
-  width: 100%;
+  width: 80%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .info1 i {
-  font-size: 20px;
-  color: #ddb814;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #dff3fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+.schedule h2 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
-.contact .info1 h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #050d18;
+table {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.contact .info1 p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #173b6c;
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ddb814;
+}
+tr:nth-child(odd) td {
+  background-color: #f9f9f9;
+}
+td:first-child {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+td:nth-child(2) {
+  font-weight: normal;
 }
 
 @keyframes animate-loading {
@@ -727,7 +734,7 @@ section {
 
 #footer .copyright {
   text-align: center;
-  width: 170px;
+  width: 100%;
 }
 
 #footer .credits {
@@ -762,6 +769,10 @@ section {
   }
   .services {
     padding: 60px 0 0 0px;
+  }
+  .schedule {
+    margin-left: 0px;
+    width: 100%;
   }
 }
 

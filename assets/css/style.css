@@ -674,35 +674,27 @@ section {
 .schedule h2 {
   font-weight: bold;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 60px;
+  margin-top: 10px;
 }
 
-table {
-  font-family: "Raleway", sans-serif;
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.schedule-days {
+  display: flex;
+  flex-direction: column;
 }
 
-th,
-td {
-  padding: 10px;
-  text-align: left;
+.schedule-day {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
   border-bottom: 1px solid #ddd;
 }
 
-th {
-  background-color: #ddb814;
-}
-tr:nth-child(odd) td {
-  background-color: #f9f9f9;
-}
-td:first-child {
-  padding-top: 20px;
+.day {
   font-weight: bold;
 }
 
-td:nth-child(2) {
+.hours {
   font-weight: normal;
 }
 

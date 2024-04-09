@@ -449,17 +449,12 @@ section {
   cursor: pointer;
   display: block;
   transition: 0.5s;
-  margin: 20px 120px 20px auto;
+  margin: 20px 130px 20px auto;
 }
 
 .book-now-btn a {
   color: #fff;
 }
-
-.book-now-btn:hover {
-  background-color: #555;
-}
-
 .book-now-btn:hover {
   background-color: #ddb814; /* Change background color on hover */
 }
@@ -769,13 +764,6 @@ section {
   width: 100%;
 }
 
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #000000;
-}
-
 @media (max-width: 1024px) {
   .wrapper {
     display: none;
@@ -800,14 +788,82 @@ section {
     margin-left: 0px;
   }
   .services {
+    background-color: black;
     padding: 60px 0 0 0px;
+  }
+  .services h2 {
+    color: white;
+  }
+  .price-list-wrapper {
+    border: 5px #ddb814 solid;
+    background-color: black;
+  }
+  .price-list .category {
+    color: #ddb814;
+  }
+  .price-list li .item {
+    color: white;
+  }
+  .booking .title a {
+    color: white;
+  }
+  .book-now-btn {
+    background-color: #ddb814;
+  }
+  #about {
+    background-color: black;
+  }
+  .about h2 {
+    color: white;
+  }
+  .row li p {
+    color: white;
   }
   .schedule {
     margin-left: 0px;
     width: 100%;
+    background-color: black;
   }
+
   .schedule h2 {
     padding-bottom: 50px;
+  }
+  .schedule-days .hours {
+    color: white;
+  }
+  .schedule-days .day {
+    color: #ddb814;
+  }
+  #contact {
+    background-color: black;
+  }
+  .contact h2 {
+    color: white;
+  }
+  .contact .info {
+    background-color: black;
+  }
+  .info .address h4,
+  .info .email h4,
+  .info .phone h4 {
+    color: #ddb814;
+  }
+  .info .address p,
+  .info .email p,
+  .info .phone p {
+    color: white;
+  }
+  #footer {
+    background-color: black;
+  }
+  #footer .copyright {
+    color: white;
+  }
+  .back-to-top {
+    background: white;
+  }
+  .back-to-top i {
+    color: black;
   }
 }
 

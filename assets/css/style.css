@@ -855,10 +855,12 @@ section {
   }
   #footer {
     background-color: black;
+    padding-left: 0;
   }
   #footer .copyright {
     color: white;
   }
+
   .back-to-top {
     background: white;
   }
@@ -872,6 +874,5 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-    padding-left: 120px;
   }
 }

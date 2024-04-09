@@ -534,10 +534,6 @@ section {
 
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -568,6 +564,9 @@ section {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+}
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
 }
 
 .portfolio .portfolio-wrap {
